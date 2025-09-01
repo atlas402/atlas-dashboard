@@ -1,0 +1,35 @@
+{
+  "name": "@atlas402/dashboard",
+  "version": "1.0.0",
+  "description": "User analytics and activity tracking for x402 ecosystem",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "x402",
+    "analytics",
+    "dashboard",
+    "tracking",
+    "micropayments"
+  ],
+  "author": "Atlas402 Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "pg": "^8.11.0",
+    "@solana/web3.js": "^1.87.0",
+    "@solana/spl-token": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.10.0",
+    "typescript": "^5.7.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.0.0"
+  }
+}
+
