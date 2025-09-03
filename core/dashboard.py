@@ -55,3 +55,4 @@ class AtlasDashboard:
     async def _fetch_base_usdc_balance(self, address: str) -> str:
         return '0.0'
 
+
